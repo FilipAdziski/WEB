@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            Kontrolen Panel
+        </title>
+    </head>
+    <body>
+        <h1>
+            Контролен Панел за Паметен Дом
+        </h1>
+        <p>Навигациско мени:</p>
+        <a href="#Спална">Спална</a><br>
+        <a href="#Дневна">Дневна</a><br>
+        <a href="#Кујна">Кујна</a><br>
+        <a href="#Градина">Градина</a><br>
+        <p>
+            <section id="Спална">
+                <h2>
+                    <u>Спална</u>
+                </h2>
+                <h3>
+                    Детектор за пожар
+                </h3>
+                <p>
+                <input type="radio" name="pozar">Детектирано
+                <input type="radio" name="pozar" checked>Недетектирано
+                </p>
+                Батерија: 23%<br>Статус: <strong>вклучен</strong>
+                <h3>
+                    Проток на воздух
+                </h3>
+                <p>
+                <input type="range">
+                </p>
+                Батерија: 38%<br>Статус: <strong>исклучен</strong>
+                <h3>
+                    Сензор за движење
+                </h3>
+                <p><input type="checkbox">Детектирано</p>
+                Батерија: 38%<br>Статус: <strong>вклучен</strong>
+            </section>
+        </p>
+        <p>
+            <section id="Дневна">
+                <h2>
+                    <u>Дневна</u>
+                </h2>
+                <h3>
+                    Детектор за пожар
+                </h3>
+                <p>
+                <input type="radio" name="pozar">Детектирано
+                <input type="radio" name="pozar" checked>Недетектирано
+                </p>
+                Батерија: 45%<br>Статус: <strong>вклучен</strong>
+                <h3>
+                    Термостат
+                </h3>
+                <p>
+                <input type="number" min="16" value="23" max="30">
+                </p>
+                Батерија: 72%<br>Статус: <strong>вклучен</strong>
+                <h3>
+                    Сензор за движење
+                </h3>
+                <p><input type="radio" name="dvizenje">Детектирано
+                <input type="radio" name="dvizenje" checked>Недетектирано</p>
+                Батерија: 95%<br>Статус: <strong>вклучен</strong>
+            </section>
+        </p>
+        <p>
+            <section id="Кујна">
+                <h2>
+                    <u>Кујна</u>
+                </h2>
+                <h3>
+                    Детектор за чад
+                </h3>
+                <p>
+                <input type="radio" name="pozar">Детектирано
+                <input type="radio" name="pozar" checked>Недетектирано
+                </p>
+                Батерија: 63%<br>Статус: <strong>исклучен</strong>
+                <h3>
+                    Детектор за истекување на гас
+                </h3>
+                <p>
+                <input type="radio" name="gas">Детектирано
+                <input type="radio" name="gas" checked>Недетектирано
+                </p>
+                Батерија: 0%<br>Статус: <strong>исклучен</strong>
+                <h3>
+                    Сензор за влага во воздухот
+                </h3>
+                <p><select>
+                    <option>Ниска &lt;30%</option>
+                    <option selected>Оптимална 30%-60%</option>
+                    <option>Висока &gt;60%</option>
+                </select></p>
+                Батерија: 87%<br>Статус: <strong>вклучен</strong>
+            </section>
+        </p>
+        <p>
+            <section id="Градина">
+                <h2>
+                    <u>Градина</u>
+                </h2>
+                <h3>
+                    Детектор за влажност на почва
+                </h3>
+                <p>
+                <input type="radio" name="voda">Недостиг на влажност
+                <input type="radio" name="voda" checked>Прифатлива
+                </p>
+                Батерија: 49%<br>Статус: <strong>вклучен</strong>
+                <h3>
+                    Детектор за движење на диви животни
+                </h3>
+                <p>
+                <input type="checkbox" name="zivotno">Зајак
+                <input type="checkbox" name="zivotno">Лисица
+                <input type="checkbox" name="zivotno">Глушец
+                <input type="checkbox" name="zivotno">Крт
+                </p>
+                Батерија: 12%<br>Статус: <strong>вклучен</strong>
+                <h3>
+                    Сензор за UV зрачење
+                </h3>
+                <p><select>
+                    <option selected>Прифатливо</option>
+                    <option>Прекумерно</option>
+                </select></p>
+                Батерија: 100%<br>Статус: <strong>исклуен</strong>
+            </section>
+        </p>
+        <details>
+            <summary>
+                <strong>Нотификации</strong>
+            </summary>
+            <ul>
+                <li><u>Нотификација</u> за детектиран пожар во спалната 
+                или дневната соба</li>
+                <li><u>Нотификација</u> за темпертаура која е надвор од
+                опсегот (20-24) степени во дневната соба</li>
+                <li><u>Нотификација</u> за детектиран проток на гас во 
+                кујната</li>
+                <li><u>Нотификација</u> за детектирано животно во градината</li>
+            </ul>
+        </details>
+    </body>
+</html>

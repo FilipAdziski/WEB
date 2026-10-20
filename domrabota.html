@@ -2,20 +2,24 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="dom2.css">
         <title>
             Kontrolen Panel
         </title>
     </head>
     <body>
         <h1>
-            Контролен Панел за Паметен Дом
+            Контролен Панел <br>за Паметен Дом
         </h1>
-        <p>Навигациско мени:</p>
-        <a href="#Спална">Спална</a><br>
-        <a href="#Дневна">Дневна</a><br>
-        <a href="#Кујна">Кујна</a><br>
-        <a href="#Градина">Градина</a><br>
-        <p>
+        <nav>Навигациско мени
+            <ul>
+            <li><a href="#Спална" class="nodec">Спална</a></li>
+            <li><a href="#Дневна" class="nodec">Дневна</a></li>
+            <li><a href="#Кујна" class="nodec">Кујна</a></li>
+            <li><a href="#Градина" class="nodec">Градина</a></li>
+            </ul>
+        </nav>
+        <p><hr>
             <section id="Спална">
                 <h2>
                     <u>Спална</u>
@@ -32,7 +36,7 @@
                     Проток на воздух
                 </h3>
                 <p>
-                <input type="range">
+                <input type="range" class="range">
                 </p>
                 Батерија: 38%<br>Статус: <strong>исклучен</strong>
                 <h3>
@@ -42,7 +46,7 @@
                 Батерија: 38%<br>Статус: <strong>вклучен</strong>
             </section>
         </p>
-        <p>
+        <p><hr>
             <section id="Дневна">
                 <h2>
                     <u>Дневна</u>
@@ -70,7 +74,7 @@
                 Батерија: 95%<br>Статус: <strong>вклучен</strong>
             </section>
         </p>
-        <p>
+        <p><hr>
             <section id="Кујна">
                 <h2>
                     <u>Кујна</u>
@@ -102,7 +106,7 @@
                 Батерија: 87%<br>Статус: <strong>вклучен</strong>
             </section>
         </p>
-        <p>
+        <p><hr>
             <section id="Градина">
                 <h2>
                     <u>Градина</u>
@@ -134,7 +138,7 @@
                 </select></p>
                 Батерија: 100%<br>Статус: <strong>исклуен</strong>
             </section>
-        </p>
+        </p><hr>
         <details>
             <summary>
                 <strong>Нотификации</strong>

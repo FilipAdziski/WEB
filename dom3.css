@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #81fceb;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    margin: auto;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    width: 15em;
+    margin-bottom: 10px;
+}
+h3 {
+    margin: auto;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(156, 19, 19);
+    width: 20em;
+    margin-bottom: 10px;
+    color: whitesmoke;
+}
+button {
+    display: block;
+    background-color: #1b1b60;
+    color: white;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    justify-content: center;
+    
+}
+
+table {
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    border-collapse: collapse;
+    width: 50em;
+    height: 100%;
+    table-layout: fixed;
+}
+td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid black;
+    border: 2px solid black;
+    background-color: rgb(187, 185, 185);
+    color: rgb(25, 22, 22);
+    table-layout: fixed;
+}
+th {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid black;
+    background-color: #202030;
+    color: white;
+    border: 1px solid black;
+}
+#raceStatus {
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+}
+#pocetokButton {
+    justify-content: center;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}

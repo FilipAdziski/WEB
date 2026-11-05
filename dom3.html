@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Формула 1 - Симулација</title>
+    <link rel="stylesheet" href="dom3.css">
+</head>
+<body>
+    <div id="naslov"><h1>Формула 1 -<br>Симулација на трка</h1>
+    <h3>10 возачи, 10 круга, 1 победник!</h3></div>
+        <div id="button" class="button">
+        <button id="pocetokButton" onclick="handleButtonClick()">Започни ја трката!</button>
+    </div>
+    
+    <div id="raceStatus" class="status"></div>
+    <table id="tabela">
+        <thead>
+            <tr>
+            <th>Возач</th>
+            <th>Тим</th>
+            <th>Гуми</th>
+            <th>Вкупно Време</th>
+            <th>Статус</th>
+            </tr>
+        </thead>
+        <tbody id="tabelaBody">
+        </tbody>
+    </table>
+    <div id="pobednik"></div>
+    <script src="dom3.js"></script>
+</body>
+</html>
